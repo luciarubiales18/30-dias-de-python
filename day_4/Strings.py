@@ -50,4 +50,3 @@ print("You cannot end a sentence with because because because is a conjunction".
 print("You cannot end a sentence with because because because is a conjunction".replace("because because because",''))
 print("You cannot end a sentence with because because because is a conjunction".find("because"))
 print("You cannot end a sentence with because because because is a conjunction".replace("because because because",''))
-

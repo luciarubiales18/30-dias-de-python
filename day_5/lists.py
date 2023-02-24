@@ -42,7 +42,29 @@ print(it_companies)
 print(it_companies [0:3])
 print(it_companies[6:9])
 
+print(it_companies[3:6])
+
+it_companies.pop(0)
 print(it_companies)
+
+print(it_companies.pop(len(it_companies)// 2))
+print(it_companies.pop(len(it_companies) -1))
+
+it_companies.clear()
+del it_companies
+
+front_end = ["HTML", "CSS", "JS", "React", "Redux"]
+back_end = ["Node", "Express", "MongoD8"]
+front_end.append(back_end)
+
+full_stack = front_end
+print(full_stack)
+full_stack.insert(5,"Python")
+
+full_stack[5] = "Python"
+
+
+
 
 
 
