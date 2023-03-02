@@ -1,12 +1,13 @@
 empty_tuple = ()
-name_sister = ("Sara")
-name_brother = ("Javier")
+name_sister = ("Sara", "Carmen")
+name_brother = ("Javier", "Hugo")
 
-name_brothers = (name_sister) + (name_brother)
-print(name_brothers)
+siblings = name_sister + name_brother
+print(siblings)
 
-sibling_numbers = (2)
+sibling_numbers = (len(siblings))
 print(sibling_numbers)
 
 name_parents = ("Loli", "Javier")
-family_members = (name_brothers) + (name_parents)
+family_members = siblings + name_parents
+print(family_members)
